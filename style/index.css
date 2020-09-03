@@ -1,1 +1,180 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+    /* border: 1px solid grey; */
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height: 2.5rem;
+    background-color: #F5F5F5;
+    color: darkgrey;
+    margin: 2% 3%;
+    font-family: 'Architects Daughter', cursive;
+}
+
+/*Header Styles*/
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+
+nav a {
+    display:inline-block;
+    width: 9%;
+    text-align:center;
+    padding: 0.5% 0;
+    background-color: grey;
+    color: blue;
+    border: 1px solid black;
+    margin: 2% 0;
+}
+
+.light-button{
+    background: #F5F5F5;
+
+}
+
+.site-title{
+    display:flex;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 0.5%;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 5rem;
+    padding: 2%;
+}
+
+header{
+    padding: 2%;
+}
+
+.header-container{
+    background-color: #edf0da;
+}
+
+/*About Section Styles*/
+
+#home {
+    display: flex;
+    justify-items: center;
+}
+
+.left-container{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+.right-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-size: 2rem;
+    padding: 5%;
+    
+}
+
+.right-container h2{
+    padding: 4% 0;
+    margin-top: 10%;
+}
+
+.right-container a {
+    padding:  2%;
+    background-color: #F5F5F5;
+    display: inline-block;
+    border: 1px solid black;
+    width: 35%;
+    margin: 2% 0;
+}
+
+/*Projects Section Styles*/
+
+img{
+    width: 100%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 0;
+}
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+    width: 22%;
+    margin: 3% 0;
+}
+
+.projects p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 1.4rem;
+}
+
+/* Footer Styles */
+footer{
+    background: #edf0da;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer a{
+    color: black; 
+    padding: 1%;
+    margin: 2%;
+    width: 15%;
+    background-color: #F5F5F5;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
