@@ -1,0 +1,17 @@
+Objectives
+
+1. describe the differences in fixed, fluid, adaptive, and responsive layouts 
+
+    fixed: use static measurements and d onot respondto the width of the viewport
+
+    fluid: use relative measurements (rem, em, %) and respond to the width of the viewport 
+
+    adaptive: looks at the size of the device and changes the layout. defined layouts for different resolutions. 
+
+    responsive: changes the design content in response to the viewport.
+
+2. implement media queries in a project
+
+3. describe how using scalable units for font-sizes impacts accessibility and why designing accessible web pages is important 
+
+    it is important to design websites that are accessible to everyone i.e those with auditory, cognitive, neurological or physical disabilites, and/pr visual needs.  
