@@ -225,6 +225,7 @@ h2 {
    .right-container{
        align-items: center;
        width: 100%;
+       text-align: center;
    }
 
    .right-container h2 {
@@ -251,3 +252,11 @@ h2 {
 
 
 /*Styles for phone at 500px*/
+
+@media (max-width: 500px){
+    body{
+        background: yellow;
+    }
+}
+
+
