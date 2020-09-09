@@ -253,10 +253,12 @@ h2 {
 
 /*Styles for phone at 500px*/
 
-@media (max-width: 500px){
+/* No adjustments needed for 500px! */
+
+/* @media (max-width: 500px){
     body{
         background: yellow;
     }
-}
+} */
 
 
