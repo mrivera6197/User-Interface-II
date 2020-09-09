@@ -15,3 +15,5 @@ Objectives
 3. describe how using scalable units for font-sizes impacts accessibility and why designing accessible web pages is important 
 
     it is important to design websites that are accessible to everyone i.e those with auditory, cognitive, neurological or physical disabilites, and/pr visual needs.  
+
+    this is a test 
